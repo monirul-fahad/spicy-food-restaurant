@@ -1,0 +1,15 @@
+.food {
+  padding: 10px 0;
+}
+
+.food:hover {
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.7s ease;
+}
+
+.food img {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+}

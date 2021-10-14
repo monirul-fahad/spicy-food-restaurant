@@ -1,0 +1,65 @@
+[
+    {
+      "id": 1,
+      "name": "Baked Chicken",
+      "description": "How we dream about our future",
+      "price": 23.99,
+      "img": "./images/breakfast1.png"
+    },
+    {
+      "id": 2,
+      "name": "Healthy Meal Plan",
+      "description": "How we dream about our future",
+      "price": 23.99,
+      "img": "./images/lunch1.png"
+    },
+    {
+      "id": 3,
+      "name": "Salmon Piccata",
+      "description": "How we dream about our future",
+      "price": 23.99,
+      "img": "./images/dinner2.png"
+    },
+    {
+      "id": 4,
+      "name": "Egg Posed",
+      "description": "How we dream about our future",
+      "price": 23.99,
+      "img": "./images/breakfast6.png"
+    },
+    {
+      "id": 5,
+      "name": "Healthy Meal",
+      "description": "How we dream about our future",
+      "price": 23.99,
+      "img": "./images/lunch3.png"
+    },
+    {
+      "id": 6,
+      "name": "Breakfast Sandwich",
+      "description": "How we dream about our future",
+      "price": 23.99,
+      "img": "./images/breakfast5.png"
+    },
+    {
+      "id": 7,
+      "name": "Healthy Meal Plan",
+      "description": "How we dream about our future",
+      "price": 23.99,
+      "img": "./images/dinner6.png"
+    },
+    {
+      "id": 8,
+      "name": "Beef Steak",
+      "description": "How we dream about our future",
+      "price": 23.99,
+      "img": "./images/lunch5.png"
+    },
+    {
+      "id": 9,
+      "name": "Meal Dinner",
+      "description": "How we dream about our future",
+      "price": 23.99,
+      "img": "./images/dinner5.png"
+    }
+  ]
