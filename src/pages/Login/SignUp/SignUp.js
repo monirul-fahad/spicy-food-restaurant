@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import useAuth from "../../../hooks/useAuth";
 import Google from "../../../images/google.png";
@@ -6,6 +7,22 @@ import "./SignUp.css";
 
 const SignUp = () => {
   const { signInUsingGoogle } = useAuth();
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  const handleName = (e) => {
+    setName(e.target.value);
+  };
+
+  const handleEmail = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handlePassword = (e) => {
+    setPassword(e.target.value);
+  };
 
   const handleSignup = (e) => {
     e.preventDefault();
@@ -24,7 +41,7 @@ const SignUp = () => {
             name="name"
             className="form-control"
             type="text"
-            onBlur=""
+            onBlur={handleName}
             placeholder="Name"
           />
           <br />
@@ -32,8 +49,8 @@ const SignUp = () => {
             type="text"
             name="email"
             className="form-control"
-            onBlur=""
-            placeholder="User Email "
+            onBlur={handleEmail}
+            placeholder="Your Email"
             required
           />
           <br />
@@ -41,7 +58,7 @@ const SignUp = () => {
             type="password"
             id="password"
             className="form-control"
-            onBlur=""
+            onBlur={handlePassword}
             name="password"
             placeholder="Your Password"
             required
